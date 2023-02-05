@@ -28,7 +28,7 @@ DEBUG = config('DEBUG', default=True, cast=bool) # True
 
 ALLOWED_HOSTS = ['greatkart-course-env.eba-invvpaqg.us-west-2.elasticbeanstalk.com']
 
-
+# W
 # Application definition
 
 INSTALLED_APPS = [
