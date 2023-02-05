@@ -6,4 +6,8 @@ TODO:(B4 SELL)
 
 
 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
-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
+
+this is a test commit maessgaew
+
+
+hello i agevc changed some hshti here.. .is my git cli woewkting or no??
