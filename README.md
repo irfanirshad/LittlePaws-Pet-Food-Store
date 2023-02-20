@@ -44,7 +44,7 @@ Also we have a Review and Rating system with the interactive rating stars that e
     ```sh
     python manage.py runserver
     ```
-12. Login to admin panel - (`http://127.0.0.1:8000/securelogin/`)
+12. Login to admin panel - (`https://127.0.0.1:8000/securelogin/`)
 13. Add categories, products, add variations, register user, login, place orders and EXPLORE SO MANY FEATURES
 
 
