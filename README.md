@@ -1,11 +1,64 @@
 
 # About The Project
-GreatKart is an eCommerce application built with Python Django Framework. Some of the features of this project includes custom user model, categories and products, Carts, Incrementing, Decrementing and removing car items, Unlimited Product image gallery, Orders, Payments, after-order functionalities such as reduce the quantify of sold products, send the order received email, clearing the cart, Order completion page as well as generating an invoice for the order.
 
-Also we have a Review and Rating system with the interactive rating stars that even allows you to rate a half-star rating. My account functionalities for the customer who can easily edit his profile, profile pictures, change his account password, and also manage his orders and much more. Finally hosted this application on AWS Elastic Beanstalk with RDS + Route 53. 
+![landing_page_lp](https://user-images.githubusercontent.com/84003624/220007038-85ff9d33-a701-4df2-9e0d-1762c639ba5f.png)
 
 
-![greatkart](https://user-images.githubusercontent.com/84003624/216995536-362421a3-afe9-4a07-aff4-269602930a2d.jpeg)
+Experience top-notch pet food shopping with <b>LittlePaws</b>, an ECommerce application built entirely using <b>Python Django</b> and <b>Jinja</b> Templates. With custom user model and cart management, explore unlimited product galleries of categories and items, and check out with ease using secure payment options. LittlePaws ensures hassle-free after-order tasks, such as inventory tracking, email notifications for received orders, cart clearing, order completion page display, and invoicing.
+
+![store_front_lp](https://user-images.githubusercontent.com/84003624/220007079-deb85ced-e626-4782-92d9-65fc6a40bb0c.png)
+
+LittlePaws includes an interactive Review and Rating system that lets you express your thoughts on pet food products and leave star ratings and comments on products they have purchased. Customers can easily manage their accounts by editing their profile, uploading profile pictures, changing passwords, and keeping track of their orders. To ensure optimal performance, scalability and security, we deployed the application on AWS Elastic Beanstalk with RDS + Route 53. With our user-friendly interface and top-notch technology stack, customers can have a seamless shopping experience for their beloved pets' food needs.
+
+## Some of the Other Features
+
+### User Dashboard
+
+![user_profile](https://user-images.githubusercontent.com/84003624/220009592-4e630754-2e6e-44e2-b7bd-fe88ffb3445b.png)
+
+### Item variations
+
+![item2](https://user-images.githubusercontent.com/84003624/220009645-088e3e10-3b3f-4a60-83d6-defbac9fe988.png)
+
+## Admin Dashboard
+
+### Screenshots on how the admin interface looks like
+
+1) Using the Django built-in admin dashboard, we add extra functionality on top of it such as Monitoring Login Attempts on the Admin(Fake) Login Page using  Paul McMillan’s <b>django-admin-honeypot</b>.
+<br/>
+
+![honeypot_attempts_ss](https://user-images.githubusercontent.com/84003624/220009003-28ed7ac0-97ee-4a88-9ff2-383b30f52a3b.png)
+
+2) Variations 
+ 
+<img width="960" alt="variations" src="https://user-images.githubusercontent.com/84003624/220009967-efb799c7-a84c-421f-820d-5d8938cb936d.png">
+
+3) Attempting to Deleting a category revealing its entire object relationship
+
+<img width="960" alt="category_deletion_variations" src="https://user-images.githubusercontent.com/84003624/220010083-6e23661a-d607-44db-915b-5d7c72765b20.png">
+
+4) Payments 
+
+<img width="960" alt="payments" src="https://user-images.githubusercontent.com/84003624/220010094-097177f0-89d1-4e80-9eea-8e8b9bcaf9b3.png">
+
+<b> and many more </b>
+
+## Flow diagram of a user attempting to check out system.
+
+### 1) User at the checkout page before clicking on "Checkout" Button
+![flow0](https://user-images.githubusercontent.com/84003624/220007259-4b42a8db-1efe-49c5-85a8-abca5cb4a1d9.png)
+
+### 2) User is redirecting to a page for filling up details Post-clicking on "Checkout" Button
+![flow1](https://user-images.githubusercontent.com/84003624/220007270-0f86b83d-51bb-471f-9d66-120e360e02f5.png)
+
+### 3) User is requested to review order before making payment. 
+![flow1 5](https://user-images.githubusercontent.com/84003624/220007280-00c93020-740f-44bd-94ae-4f574b9183bf.png)
+
+### 4) User can either click on the paypal button or credit/debit card payment for finalizing payment(use a sandbox account for testing) 
+![flow2](https://user-images.githubusercontent.com/84003624/220007289-2d32336f-e8d9-4d88-a1ac-2957e4273210.png)
+
+### 5) Post finalizing payment, AWS SES sends an invoice email notifying the order details and date of expected delivery.
+
 
 
 # Setup Instructions
