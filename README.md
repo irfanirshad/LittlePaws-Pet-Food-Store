@@ -1,6 +1,5 @@
 
-# About The Project
-
+# LittlePaws Pet Food Store
 ![landing_page_lp](https://user-images.githubusercontent.com/84003624/220007038-85ff9d33-a701-4df2-9e0d-1762c639ba5f.png)
 
 
@@ -14,7 +13,7 @@ LittlePaws includes an interactive Review and Rating system that lets you expres
 
 ### User Dashboard
 
-![user_profile](https://user-images.githubusercontent.com/84003624/220009592-4e630754-2e6e-44e2-b7bd-fe88ffb3445b.png)
+![user_profile](https://user-images.githubusercontent.com/84003624/220010683-b3edb7d1-08bb-45ff-a715-2182c7c7ee2a.png)
 
 ### Item variations, Reviews and Comments
 
@@ -41,15 +40,14 @@ LittlePaws includes an interactive Review and Rating system that lets you expres
 
 <img width="960" alt="payments" src="https://user-images.githubusercontent.com/84003624/220010094-097177f0-89d1-4e80-9eea-8e8b9bcaf9b3.png">
 
-<b> and many more </b>
 
 ## Flow diagram of a user attempting to check out system.
 
 ### 1) User at the checkout page before clicking on "Checkout" Button
-![flow0](https://user-images.githubusercontent.com/84003624/220007259-4b42a8db-1efe-49c5-85a8-abca5cb4a1d9.png)
+![flow0](https://user-images.githubusercontent.com/84003624/220010733-f49b71cd-0209-47f4-ae13-8f312e01d8fb.png)
 
 ### 2) User is redirecting to a page for filling up details Post-clicking on "Checkout" Button
-![flow1](https://user-images.githubusercontent.com/84003624/220007270-0f86b83d-51bb-471f-9d66-120e360e02f5.png)
+![flow1](https://user-images.githubusercontent.com/84003624/220010748-35be2d11-65d9-4d8f-bc38-bf1d11d74846.png)
 
 ### 3) User is requested to review order before making payment. 
 ![flow1 5](https://user-images.githubusercontent.com/84003624/220007280-00c93020-740f-44bd-94ae-4f574b9183bf.png)
