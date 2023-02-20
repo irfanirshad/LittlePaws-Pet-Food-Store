@@ -16,7 +16,7 @@ LittlePaws includes an interactive Review and Rating system that lets you expres
 
 ![user_profile](https://user-images.githubusercontent.com/84003624/220009592-4e630754-2e6e-44e2-b7bd-fe88ffb3445b.png)
 
-### Item variations
+### Item variations, Reviews and Comments
 
 ![item2](https://user-images.githubusercontent.com/84003624/220009645-088e3e10-3b3f-4a60-83d6-defbac9fe988.png)
 
